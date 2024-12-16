@@ -1,7 +1,9 @@
 Title:-SmartTrackTally
 
 Smart TrackTally is an  Student Attendance System that simplifies attendance management. it is developed an attendence tracking system using some technologies like spring boot  for backend, hibernate ORM, mysql 8 for data storing, and postman for API testing.
+
 It includes Layered Architecture:
+
 1. Controller Layer:
         Responsible for handling incoming HTTP requests, processing them, and returning appropriate responses.
         Controllers act as the entry point to the application and delegate business logic to the service layer.
@@ -16,6 +18,7 @@ It includes Layered Architecture:
      DAOs abstract away the details of database interactions and provide a clean interface for the service layer to work with.
 
 It includes key modules:
+
 Student Module: Allows students to view and track their attendance records.
 User Module: Manages different roles (students, faculty, admins) with secure login and access control.
 Subject Module: Organizes attendance by subjects and courses, ensuring subject-specific tracking.
